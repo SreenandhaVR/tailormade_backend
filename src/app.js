@@ -11,7 +11,7 @@ const { errorHandler, notFound } = require('./middleware/errorHandler');
 const config = require('./config/config');
 
 // Import routes
-const authRoutes = require('./routes/auth');
+const authRoutes = require('./routes/authRoutes');
 const shopRoutes = require('./routes/shop');
 const orderRoutes = require('./routes/order');
 const userRoutes = require('./routes/user');
