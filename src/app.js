@@ -92,6 +92,11 @@ app.get('/api', (req, res) => {
   });
 });
 
+// Root route for base URL
+app.get('/', (req, res) => {
+  res.send('🧵 TailorMade Backend is running...');
+});
+
 // 404 handler for undefined routes
 app.use(notFound);
 
